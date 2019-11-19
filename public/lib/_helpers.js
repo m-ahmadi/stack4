@@ -26,13 +26,13 @@ function __els(root, obj) {
 	els.each(function (i, domEl) {
 		const $el = $(domEl);
 		$el.data('els').split(' ').forEach(k => {
-			if ( !res[k] ) res[k] = $();
+			if (!res[k]) res[k] = $();
 			res[k] = res[k].add($el);
 		});
 	});
 	if (obj) {
 		Object.keys(res).forEach(k => {
-			if ( !obj[k] ) obj[k] = res[k];
+			if (!obj[k]) obj[k] = res[k];
 		});
 	} else {
 		return res;
