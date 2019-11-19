@@ -7,7 +7,7 @@ function __temps(name) {
 }
 
 function __els(root, obj) {
-	if (!root && !obj) return;
+	if (!root) return;
 	const res = {};
 	let el, els;
 	if (typeof root === 'string') {
