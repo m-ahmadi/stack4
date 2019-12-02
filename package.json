@@ -20,7 +20,6 @@
   "devDependencies": {
     "rollup": "latest",
     "gulp": "latest",
-    "gulp-cli": "latest",
     "gulp-livereload": "latest",
     "gulp-shell": "latest",
     "htmlbilder": "latest",
