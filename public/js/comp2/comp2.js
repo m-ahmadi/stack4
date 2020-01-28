@@ -1,9 +1,8 @@
-const ROOT = '#comp2';
-const temp = __temps('comp2');
-let $$;
+let $$, temps;
 
 function init () {
-	$$ = __els(ROOT);
+	$$ = __els('[data-root="comp2"]');
+	temps = __temps('comp2');
 }
 
 export default { init }
